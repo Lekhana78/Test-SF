@@ -1,0 +1,12 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-test",
+      "default": true
+    }
+  ],
+  "name": "Test sf local",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "59.0"
+}
