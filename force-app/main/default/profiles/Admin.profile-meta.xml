@@ -24,6 +24,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Interview_Round__c.Interview_Pattern__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Interview_Round__c.Interview_Start_Date_and_Time__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -37,6 +42,10 @@
         <layout>Interview_Round__c-Interview Round Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Interview_Round__c-Interview Round Layout</layout>
+        <recordType>Interview_Round__c.A_block</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Task-Task Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
@@ -46,7 +55,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Employee__c</object>
+        <object>Interview_Round__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -55,15 +64,20 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Interview_Round__c</object>
+        <object>Employee__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Interview_Round__c.A_block</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>Employee__c</tab>
+        <tab>Interview_Round__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Interview_Round__c</tab>
+        <tab>Employee__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
