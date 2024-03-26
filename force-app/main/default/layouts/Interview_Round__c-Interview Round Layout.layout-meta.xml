@@ -14,6 +14,10 @@
                 <behavior>Edit</behavior>
                 <field>Interview_Start_Date_and_Time__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Interview_Pattern__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
