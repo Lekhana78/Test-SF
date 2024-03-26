@@ -17,15 +17,16 @@
                 <label>Selected</label>
             </value>
             <value>
-                <fullName>Rejected</fullName>
-                <default>false</default>
-                <label>Rejected</label>
-            </value>
-            <value>
                 <fullName>On hold</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
                 <label>On hold</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rejected</label>
             </value>
         </valueSetDefinition>
     </valueSet>
